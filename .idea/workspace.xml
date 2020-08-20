@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be652eaa-9e30-4298-ac6d-d3e012ef4a26" name="Default Changelist" comment="20.08.2020">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,8 +162,16 @@
       <updated>1597868801212</updated>
       <workItem from="1597868802475" duration="749000" />
       <workItem from="1597902983711" duration="16084000" />
-      <workItem from="1597925531291" duration="5109000" />
+      <workItem from="1597925531291" duration="5959000" />
     </task>
+    <task id="LOCAL-00001" summary="20.08.2020">
+      <created>1597942300984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597942300984</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,9 +218,9 @@
       <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="261" y="118" width="1022" height="737" key="SettingsEditor/72.27.1528.873@72.27.1528.873" timestamp="1597903204211" />
-    <state x="437" y="179" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597941434882">
+    <state x="437" y="179" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597942756038">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state x="437" y="179" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1528.873@72.27.1528.873" timestamp="1597941434882" />
+    <state x="437" y="179" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1528.873@72.27.1528.873" timestamp="1597942756038" />
   </component>
 </project>
