@@ -10,8 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be652eaa-9e30-4298-ac6d-d3e012ef4a26" name="Default Changelist" comment="20.08.2020">
+    <list default="true" id="be652eaa-9e30-4298-ac6d-d3e012ef4a26" name="Default Changelist" comment="20.08.2020 20.00">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/TestService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/TestService.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +164,7 @@
       <updated>1597868801212</updated>
       <workItem from="1597868802475" duration="749000" />
       <workItem from="1597902983711" duration="16084000" />
-      <workItem from="1597925531291" duration="5959000" />
+      <workItem from="1597925531291" duration="8217000" />
     </task>
     <task id="LOCAL-00001" summary="20.08.2020">
       <created>1597942300984</created>
@@ -171,7 +173,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597942300984</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="20.08.2020">
+      <created>1597943018441</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597943018441</updated>
+    </task>
+    <task id="LOCAL-00003" summary="20.08.2020 20.00">
+      <created>1597943337457</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597943337457</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +207,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="20.08.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.08.2020" />
+    <MESSAGE value="20.08.2020 20.00" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.08.2020 20.00" />
   </component>
   <component name="WindowStateProjectService">
     <state x="355" y="144" width="824" height="691" key="#CLI_Interpreters" timestamp="1597903110983">
@@ -218,9 +235,9 @@
       <screen x="72" y="27" width="1528" height="873" />
     </state>
     <state x="261" y="118" width="1022" height="737" key="SettingsEditor/72.27.1528.873@72.27.1528.873" timestamp="1597903204211" />
-    <state x="437" y="179" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597942756038">
+    <state x="437" y="179" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1597943352928">
       <screen x="72" y="27" width="1528" height="873" />
     </state>
-    <state x="437" y="179" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1528.873@72.27.1528.873" timestamp="1597942756038" />
+    <state x="437" y="179" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1528.873@72.27.1528.873" timestamp="1597943352928" />
   </component>
 </project>

@@ -9,7 +9,7 @@ use phpDocumentor\Reflection\Types\Integer;
 class TestService
 {
 private $curs = 60;
-public function convert(Integer $rub){
+public function convert($rub){
     return $rub/$this->curs;
 }
 }
