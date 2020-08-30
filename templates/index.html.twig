@@ -1,0 +1,48 @@
+{#<!DOCTYPE html>#}
+{#<html>#}
+{#    <head>#}
+{#        <meta charset="UTF-8">#}
+{#        <title>{{ page.title }}</title>#}
+{#    </head>#}
+{#    <body>#}
+{#    <h1>{{ page.title }}</h1>#}
+{#    <div>{{ page.content }}</div>#}
+{#    </body>#}
+{#</html>#}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}Comment index{% endblock %}
+
+{% block body %}
+<h1>Comment index</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Content</th>
+        <th>actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for comment in pagination %}
+        <tr>
+            <td>{{ comment.id }}</td>
+            <td>{{ comment.content }}</td>
+            <td>
+                <a href="{{ path('comment_show', {'id': comment.id}) }}">show</a>
+                <a href="{{ path('comment_edit', {'id': comment.id}) }}">edit</a>
+            </td>
+        </tr>
+    {% else %}
+        <tr>
+            <td colspan="3">no records found</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+{{ knp_pagination_render(pagination) }}
+    <a href="{{ path('comment_new') }}">Create new</a>
+{% endblock %}
